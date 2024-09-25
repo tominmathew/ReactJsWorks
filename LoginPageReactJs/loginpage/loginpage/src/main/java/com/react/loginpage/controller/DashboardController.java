@@ -24,5 +24,4 @@ public class DashboardController {
 		Users user = userService.userData(username);
 		return ResponseEntity.ok(user);
 	}
-	
 }
