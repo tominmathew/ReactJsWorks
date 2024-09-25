@@ -1,0 +1,48 @@
+/* Center the entire container */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center contents horizontally */
+    justify-content: center;  /* Center contents vertically */
+    height: 100vh;  /* Full viewport height */
+    width: 100%;  /* Full width */
+    background-color: #f9f9f9;  /* Optional: background color for the form */
+}
+
+/* Style for the form */
+form {
+    width: 100%;
+    max-width: 400px;  /* Limit the width of the form */
+    background-color: white;  /* Form background */
+    padding: 20px;
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Shadow effect */
+}
+
+/* Input group styles */
+.inputGroup {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007b
+}

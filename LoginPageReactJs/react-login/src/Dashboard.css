@@ -1,0 +1,78 @@
+.container {
+    width: 400px;
+    /* Set a fixed width for the form */
+    margin: 0 auto;
+    /* Center the form */
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    /* Space between inputs */
+}
+
+input[type="text"],
+input[type="emailId"],
+input[type="password"],
+textarea,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    /* Space above input fields */
+}
+
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    /* Space between language and checkboxes */
+    align-items: center;
+    /* Center align items vertically */
+    margin-bottom: 10px;
+    /* Space between language items */
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 10px;
+    /* Space between checkboxes */
+}
+
+.gender-group {
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+    gap: 15px;
+    /* Space between radio buttons */
+    margin-top: 5px;
+    /* Optional margin for spacing above */
+}
+
+.edit-button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: darkgreen;
+}
+
+.logout-button {
+    background-color: rgb(189, 7, 7);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.logout-button:hover {
+    background-color: rgb(71, 7, 7);
+}

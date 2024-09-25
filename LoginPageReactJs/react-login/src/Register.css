@@ -1,0 +1,85 @@
+.container {
+    width: 400px; /* Set a fixed width for the form */
+    margin: 0 auto; /* Center the form */
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Space between inputs */
+}
+
+input[type="text"],
+input[type="emailId"],
+input[type="password"],
+textarea,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px; /* Space above input fields */
+}
+
+.language-item {
+    display: flex;
+    justify-content: space-between; /* Space between language and checkboxes */
+    align-items: center; /* Center align items vertically */
+    margin-bottom: 10px; /* Space between language items */
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 10px; /* Space between checkboxes */
+}
+
+button[type="submit"] {
+    width: 100%; /* Make the register button full width */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"] {
+    padding: 5px 10px; /* Smaller padding for add button */
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover[type="button"] {
+    background-color: darkgreen;
+}
+
+button:hover[type="submit"] {
+    background-color: rgb(7, 11, 75);
+}
+
+.gender-group {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 15px; /* Space between radio buttons */
+    margin-top: 5px; /* Optional margin for spacing above */
+}
+
+.dashboard-button {
+    background-color: rgb(21, 87, 210);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust the value as needed */
+}
+
+.dashboard-button:hover {
+    background-color: #26609f;
+}
+
+.button-space {
+    margin-top: 10px; /* Adjust the value as needed */
+  }
