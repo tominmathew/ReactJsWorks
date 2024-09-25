@@ -255,7 +255,7 @@ const Registration = () => {
                     <textarea id="address" name="address" value={formData.address} onChange={handleChange} />
                 </div>
                 <div className="mb-3 input-wrapper">
-                    <label htmlFor="experience">Experience</label>
+                    <label htmlFor="experience">Experience (In years)</label>
                     <input type="text" id="experience" name="experience" value={formData.experience} onChange={handleChange} />
                 </div>
                 <div className="mb-3 input-wrapper">
