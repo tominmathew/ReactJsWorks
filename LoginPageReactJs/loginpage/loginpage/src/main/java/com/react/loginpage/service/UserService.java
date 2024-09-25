@@ -1,7 +1,6 @@
 package com.react.loginpage.service;
 
 import java.util.Objects;
-import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -14,10 +13,7 @@ import com.react.loginpage.entity.Skills;
 import com.react.loginpage.entity.Users;
 import com.react.loginpage.repository.SkillsRepository;
 import com.react.loginpage.repository.UserRepository;
-import com.react.loginpage.request.LoginRequest;
 import com.react.loginpage.request.RegistrationRequest;
-
-import jakarta.validation.Valid;
 
 @Service
 public class UserService {
